@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/openholidays",
+  "title": "Openholidays",
+  "description": "OpenHolidays MCP.",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/openholidays",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-openholidays",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/openholidays/mcp"
+    }
+  ]
+}
